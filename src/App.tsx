@@ -112,14 +112,14 @@ function App() {
         </div>
 
         <h1 className="text-5xl md:text-6xl font-bold text-gray-800 mb-4">
-          Can You Be My
+          Will You Be My
         </h1>
         <h2 className="text-6xl md:text-7xl font-bold bg-gradient-to-r from-rose-500 via-pink-500 to-red-500 bg-clip-text text-transparent mb-8">
           Valentine? 💝
         </h2>
 
         <p className="text-gray-600 text-lg mb-12 italic">
-          "Love is not just looking at each other, it's looking in the same direction" ✨
+          Love is not just looking at each other, it's looking in the same direction. ✨
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center relative h-24">
