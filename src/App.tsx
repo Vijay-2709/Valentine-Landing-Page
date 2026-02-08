@@ -8,10 +8,10 @@ function App() {
   const [noButtonOffset, setNoButtonOffset] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
-    const hearts = Array.from({ length: 15 }, (_, i) => ({
+    const hearts = Array.from({ length: 30 }, (_, i) => ({
       id: i,
       left: Math.random() * 100,
-      delay: Math.random() * 5,
+      delay: Math.random() * 15,
     }));
     setFloatingHearts(hearts);
   }, []);
